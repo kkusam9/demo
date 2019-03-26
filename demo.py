@@ -25,8 +25,8 @@ class TestFactorial(unittest.TestCase):
 
     def test_negative(self):
         #pdb.set_trace()
-        self.assertRaises(Exception, factorial2,-1)
-        self.assertRaises(Exception, factorial,-2)
+        self.assertRaises(Exception, factorial2(-1))
+        self.assertRaises(Exception, factorial(-2))
 
 if __name__ == "__main__":
     print(factorial(22))
